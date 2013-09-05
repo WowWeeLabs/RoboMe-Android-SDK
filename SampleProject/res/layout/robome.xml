@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startBtnPressed"
+        android:text="START" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_toRightOf="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="stopBtnPressed"
+        android:text="STOP" />
+
+	<Button
+        android:id="@+id/headup"
+        android:layout_toRightOf="@+id/stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="headUpBtnPressed"
+        android:text="Head Up" />
+	
+	<Button
+        android:id="@+id/headdown"
+        android:layout_toRightOf="@+id/headup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="headDownBtnPressed"
+        android:text="Head Down" />
+	
+	<Button
+        android:id="@+id/left"
+        android:layout_below="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="leftBtnPressed"
+        android:text="Left" />
+	
+	<Button
+        android:id="@+id/right"
+        android:layout_below="@+id/start"
+        android:layout_toRightOf="@+id/left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="rightBtnPressed"
+        android:text="Right" />
+	
+	<Button
+        android:id="@+id/forward"
+        android:layout_below="@+id/start"
+        android:layout_toRightOf="@+id/right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="forwardBtnPressed"
+        android:text="Forward" />
+	
+	<Button
+        android:id="@+id/backward"
+        android:layout_below="@+id/start"
+        android:layout_toRightOf="@+id/forward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="backwardBtnPressed"
+        android:text="Backward" />
+	
+	
+<ScrollView android:id="@+id/outputScrollView" android:layout_below="@+id/left" android:layout_width="fill_parent" 
+    android:layout_height="fill_parent">
+<TextView  
+    android:id="@+id/output"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    />
+</ScrollView>
+</RelativeLayout>
