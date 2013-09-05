@@ -1,7 +1,7 @@
 RoboMe Android SDK
 ===============
 
-The RoboMe Android SDK lets you use send and receive commands to and from your [RoboMe robot](http://www.wowwee.com).
+The RoboMe Android SDK lets you send and receive commands to and from your [RoboMe robot](http://www.wowwee.com).
 
 Documentation of the SDK is available here: http://www.wowweelabs.com/robome/android/docs/index.html
 
@@ -16,7 +16,7 @@ Getting Started
 
 Download the [RoboMe Android SDK](https://github.com/WowWeeLabs/RoboMe-Android-SDK).
 
-The quickest way to get started is to open the sample app under the SampleProject directory. The RoboMe sample app starts listening to events from RoboMe and prints these to the text view. It also displays buttons to send a few movement commands to RoboMe. For a full list of commands see RoboMeMeCommands class.
+The quickest way to get started is to open the sample app under the SampleProject directory. The RoboMe sample app starts listening to events from RoboMe and prints these to the text view. It also displays buttons to send a few movement commands to RoboMe. For a full list of commands see RoboMeCommands class.
 
 Creating your own app using the RoboMe Android SDK
 ---------------------------------------------------
@@ -73,7 +73,7 @@ Next steps:
 		}
 		
 		public void volumeChanged(float volume){
-			// Media volume changed value between 0..15
+			// Media volume changed (value between 0..15)
 		}
 		
 		
