@@ -3,13 +3,13 @@ RoboMe Android SDK
 
 The RoboMe Android SDK lets you send and receive commands to and from your [RoboMe robot](http://www.wowwee.com).
 
-Documentation of the SDK is available here: http://www.wowweelabs.com/robome/android/docs/index.html
+Documentation of the SDK is available here: http://www.wowweelabs.com/SDKs/RoboMe/Android/index.html
 
 Support is available at the RoboCommunity forums: http://www.robocommunity.com/robome
 
-For iOS or Unity SDKs visit: http://www.wowweelabs.com/
+For iOS or Unity SDKs visit: http://www.wowweelabs.com
 
-For information on WowWee products visit: http://www.wowwee.com/
+For information on WowWee products visit: http://www.wowwee.com
 
 Getting Started
 ---------------------------------------
